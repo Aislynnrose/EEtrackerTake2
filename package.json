@@ -1,0 +1,25 @@
+{
+  "name": "Employee Tracker",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aislynnrose/EEtrackerTake2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aislynnrose/EEtrackerTake2/issues"
+  },
+  "homepage": "https://github.com/Aislynnrose/EEtrackerTake2/blob/main/README.md",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.4"
+  }
+}
