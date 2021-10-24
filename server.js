@@ -44,7 +44,6 @@ const init = () => {
                     "Add a new employee",
                     "Add a new department",
                     "Add a new role",
-                    "Add a new employee",
                     "Update an employee's role",
                     "Exit",
                 ],
@@ -74,8 +73,8 @@ const init = () => {
                     updateEE();
                     break;
                 case "Exit":
-                  process.exit();
-                  break;
+                    process.exit();
+                    break;
             }
         });
 };
@@ -183,7 +182,7 @@ const addRole = async () => {
                     deptID,
                 ]);
                 console.log(
-                    `${answer.roleTitle} has been successfully added to the role list!`
+                    `${answer.roleTitle} has been successfully added as a role!`
                 );
                 init();
             } catch (err) {
@@ -264,7 +263,7 @@ const addEE = async () => {
                     managerID,
                 ]);
                 console.log(
-                    `${answer.firstName} ${answer.lastName} has been successfully added to the employee list!`
+                    `${answer.firstName} ${answer.lastName} has been successfully added as an employee!`
                 );
                 init();
             } catch (err) {
