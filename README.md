@@ -6,7 +6,7 @@ To access this application clone the code and run `npm i` to install the depende
 
   ## _GitHub URL_: https://github.com/Aislynnrose/EEtrackerTake2
 
-  ## ![Video]()
+  ## ![Video](./Hnet-image.gif)
 
   ## _Email Me_: aislynn.rose@gmail.com
 
